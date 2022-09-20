@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SqlProjects/static/css/main.79f2ceef.css",
+    "main.js": "/SqlProjects/static/js/main.0c002a48.js",
+    "index.html": "/SqlProjects/index.html",
+    "main.79f2ceef.css.map": "/SqlProjects/static/css/main.79f2ceef.css.map",
+    "main.0c002a48.js.map": "/SqlProjects/static/js/main.0c002a48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79f2ceef.css",
+    "static/js/main.0c002a48.js"
+  ]
+}
