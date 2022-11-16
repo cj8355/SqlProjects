@@ -4,6 +4,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import CodeIcon from '@mui/icons-material/Code';
 
 export default function Projects() {
     const [currentSlide,setCurrentSlide] = useState(0);
@@ -12,8 +13,8 @@ export default function Projects() {
         {
             id: "1",
             icon: "assets/globe.png",
-            title: "Proj 1",
-            desc: "1st MySQL Project",
+            title: "Covid-19",
+            desc: "MySQL project documenting Covid deaths/Vaccinations",
             img: "assets/retroland.png",
             livesite: "http://cj8355.github.io/RetroLand",
             repo: "https://github.com/cj8355/RetroLand",
@@ -36,14 +37,15 @@ export default function Projects() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                <div className="imgContainer">
+                                {/* <div className="imgContainer">
                                     <img src={process.env.PUBLIC_URL + "/" +  d.icon} alt="" />
-                                </div>
+                                </div> */}
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
                                 <div className="iconContainer">
-                                <a href={d.livesite} target="_blank"> <LanguageOutlinedIcon className="websiteIcon" /> </a>
-                                <a href={d.repo} target="_blank"> <GitHubIcon className="gitHubIcon" /> </a>
+                                {/* <a href={d.livesite} target="_blank"> <LanguageOutlinedIcon className="websiteIcon" /> </a> */}
+                                {/* <a href={d.repo} target="_blank"> <GitHubIcon className="gitHubIcon" /> </a> */}
+                                <CodeIcon />
                                 </div>
                                 
                                 {/* {d.techUsed.length && (
