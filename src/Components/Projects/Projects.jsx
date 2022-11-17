@@ -5,6 +5,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
+import ExcelFile1 from './CovidDeaths.csv';
+import ExcelFile2 from './CovidVaccinations.csv';
 
 export default function Projects() {
     const [currentSlide,setCurrentSlide] = useState(0);
@@ -46,6 +48,8 @@ export default function Projects() {
                                 {/* <a href={d.livesite} target="_blank"> <LanguageOutlinedIcon className="websiteIcon" /> </a> */}
                                 {/* <a href={d.repo} target="_blank"> <GitHubIcon className="gitHubIcon" /> </a> */}
                                 <CodeIcon />
+                                <a href={ExcelFile1} target="_blank">Download1</a>
+                                <a href={ExcelFile2} target="_blank">Download2</a>
                                 </div>
                                 
                                 {/* {d.techUsed.length && (
