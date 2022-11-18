@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/SqlProjects/static/css/main.79f2ceef.css",
-    "main.js": "/SqlProjects/static/js/main.0c002a48.js",
+    "main.css": "/SqlProjects/static/css/main.fbcd7b0f.css",
+    "main.js": "/SqlProjects/static/js/main.57f3d0be.js",
+    "static/media/CovidVaccinations.csv": "/SqlProjects/static/media/CovidVaccinations.891c15b28a9b7b82710c.csv",
+    "static/media/CovidDeaths.csv": "/SqlProjects/static/media/CovidDeaths.9ebc82fe77488cd853e1.csv",
     "index.html": "/SqlProjects/index.html",
-    "main.79f2ceef.css.map": "/SqlProjects/static/css/main.79f2ceef.css.map",
-    "main.0c002a48.js.map": "/SqlProjects/static/js/main.0c002a48.js.map"
+    "main.fbcd7b0f.css.map": "/SqlProjects/static/css/main.fbcd7b0f.css.map",
+    "main.57f3d0be.js.map": "/SqlProjects/static/js/main.57f3d0be.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f2ceef.css",
-    "static/js/main.0c002a48.js"
+    "static/css/main.fbcd7b0f.css",
+    "static/js/main.57f3d0be.js"
   ]
 }
