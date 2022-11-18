@@ -14,7 +14,7 @@ export default function Projects() {
     const data = [
         {
             id: "1",
-            icon: "assets/mysql_covid_proj.png",
+            icon: "assets/mysql.svg",
             title: "Covid-19",
             desc: "MySQL project documenting Covid deaths/Vaccinations",
             img: "assets/mysql_covid_proj.png",
@@ -39,17 +39,17 @@ export default function Projects() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                {/* <div className="imgContainer">
+                                <div className="imgContainer">
                                     <img src={process.env.PUBLIC_URL + "/" +  d.icon} alt="" />
-                                </div> */}
+                                </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
                                 <div className="iconContainer">
                                 {/* <a href={d.livesite} target="_blank"> <LanguageOutlinedIcon className="websiteIcon" /> </a> */}
                                 {/* <a href={d.repo} target="_blank"> <GitHubIcon className="gitHubIcon" /> </a> */}
-                                <a href={d.code} target="_blank"><CodeIcon /></a>
-                                <a href={ExcelFile1} target="_blank">Download1</a>
-                                <a href={ExcelFile2} target="_blank">Download2</a>
+                                <a href={d.code} target="_blank" className="links"><CodeIcon /></a>
+                                <a href={ExcelFile1} target="_blank" className="links">Covid Deaths Excel File</a>
+                                <a href={ExcelFile2} target="_blank" className="links">Covid Vaccinations Excel File</a>
                                 </div>
                                 
                                 {/* {d.techUsed.length && (
