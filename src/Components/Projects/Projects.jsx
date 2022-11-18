@@ -14,11 +14,11 @@ export default function Projects() {
     const data = [
         {
             id: "1",
-            icon: "assets/globe.png",
+            icon: "assets/mysql_covid_proj.png",
             title: "Covid-19",
             desc: "MySQL project documenting Covid deaths/Vaccinations",
-            img: "assets/retroland.png",
-            livesite: "http://cj8355.github.io/RetroLand",
+            img: "assets/mysql_covid_proj.png",
+            code: "https://github.com/cj8355/MysqlCovidProject/blob/main/Covid.sql",
             repo: "https://github.com/cj8355/RetroLand",
             techUsed: [ "React", "Styled Components", "Firebase", "Material UI"]
         },
@@ -47,7 +47,7 @@ export default function Projects() {
                                 <div className="iconContainer">
                                 {/* <a href={d.livesite} target="_blank"> <LanguageOutlinedIcon className="websiteIcon" /> </a> */}
                                 {/* <a href={d.repo} target="_blank"> <GitHubIcon className="gitHubIcon" /> </a> */}
-                                <CodeIcon />
+                                <a href={d.code} target="_blank"><CodeIcon /></a>
                                 <a href={ExcelFile1} target="_blank">Download1</a>
                                 <a href={ExcelFile2} target="_blank">Download2</a>
                                 </div>
